@@ -1,7 +1,7 @@
 (cl:in-package #:asdf-user)
 
 (defsystem use-finder
-  :depends-on (:sicl-reader-simple :trivial-gray-streams)
+  :depends-on (:use-finder-reader :trivial-gray-streams)
   :serial t
   :components
   ((:file "packages")
